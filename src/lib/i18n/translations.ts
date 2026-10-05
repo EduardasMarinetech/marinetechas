@@ -86,14 +86,17 @@ export const translations = {
           items: [
             "Pagrindinių ir pagalbinių variklių kapitalinis remontas",
             "Velenų centravimas",
-            "Kuro (aukšto slėgio siurblių) remontas",
+            "Kuro aparatūros remontas",
+            "Denio mechanizmų remontas",
+            "Cilindrų įvorių honingavimas",
+            "Vairo mechanizmo ir hidraulikos darbai",
           ],
         },
         {
           title: "Pramoninių Vamzdynų Sistemos",
           description: "Specializuoti sprendimai pramoninių vamzdynų sistemų aprūpinimui.",
           items: [
-            "Vamzdynų sistemų ir armatūros montavimas",
+            "Vamzdynų sistemų ir armatūros gamyba, montavimas ir remontas",
             "Šilumokaičių ir slėginių indų remontas",
           ],
         },
@@ -405,14 +408,17 @@ export const translations = {
           items: [
             "Overhaul of main and auxiliary engines",
             "Shaft alignment",
-            "Fuel (high-pressure pump) repair",
+            "Fuel equipment repair",
+            "Deck machinery repair",
+            "Cylinder liner honing",
+            "Steering gear and hydraulics work",
           ],
         },
         {
           title: "Industrial Piping Systems",
           description: "Specialized solutions for industrial piping systems.",
           items: [
-            "Installation of piping systems and fittings",
+            "Manufacture, installation and repair of piping systems and fittings",
             "Heat exchanger and pressure vessel repair",
           ],
         },
@@ -724,14 +730,17 @@ export const translations = {
           items: [
             "Overhaling av hoved- og hjelpemotorer",
             "Innretting av aksler",
-            "Reparasjon av brennstoff (høytrykkspumper)",
+            "Reparasjon av brennstoffutstyr",
+            "Reparasjon av dekksmaskineri",
+            "Honing av sylinderfôringer",
+            "Arbeid med styremaskineri og hydraulikk",
           ],
         },
         {
           title: "Industrielle Rørsystemer",
           description: "Spesialiserte løsninger for industrielle rørsystemer.",
           items: [
-            "Installasjon av rørsystemer og armatur",
+            "Produksjon, installasjon og reparasjon av rørsystemer og armatur",
             "Reparasjon av varmevekslere og trykkbeholdere",
           ],
         },
