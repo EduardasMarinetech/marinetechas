@@ -1,15 +1,16 @@
 "use client";
 
-import { Wrench, Snowflake, Zap, Anchor, Check, Award } from "lucide-react"
+import { Wrench, Droplets, Truck, Flame, Check, Award } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { useLanguage } from "@/lib/i18n/language-context"
 
-const groupIcons = [<Wrench size={40} key="0" />, <Snowflake size={40} key="1" />, <Zap size={40} key="2" />, <Anchor size={40} key="3" />];
+const groupIcons = [<Wrench size={40} key="0" />, <Droplets size={40} key="1" />, <Truck size={40} key="2" />, <Flame size={40} key="3" />];
 const groupImages = ["/5.png", "/3.png", "/6.png", "/7.png"];
 
 const certificates = [
-  { src: "/sertifikatas-rmrs.jpg", alt: "RMRS sertifikatas" },
+  { src: "/sertifikatas-rina-1.png", alt: "RINA sertifikatas" },
+  { src: "/sertifikatas-rina-2.png", alt: "RINA sertifikato priedas" },
   { src: "/sertifikatas-atestacija.jpg", alt: "Atestacijos pažymėjimas" },
 ];
 
@@ -107,7 +108,7 @@ export default function PaslaugosClient() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {certificates.map((cert, idx) => (
             <a
               key={idx}
