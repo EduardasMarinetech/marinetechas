@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer"; // Importuojame footerį
 import { LanguageProvider } from "@/lib/i18n/language-context";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -93,6 +94,7 @@ export default function RootLayout({
           {/* Footeris, kuris dabar bus visuose puslapiuose */}
           <Footer />
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
